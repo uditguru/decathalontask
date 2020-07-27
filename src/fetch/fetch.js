@@ -1,4 +1,4 @@
-var url = "https://newsapi.org/v2/everything?q=bitcoin&apiKey=5733cfe169044d3bb4ae73313206992f"
+var url = "//newsapi.org/v2/everything?q=bitcoin&apiKey=5733cfe169044d3bb4ae73313206992f"
 
 export async function FetchNews(data) {
     let results = fetch(`${url}&page=${data}`)
